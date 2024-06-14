@@ -9,7 +9,6 @@ int main(){
     scanf("%d",&a);
     printf("enter value for number2 : ");
     scanf("%d",&b);
-
     swap(&a , &b );                                   // calling by address of a & b
 
     printf("\nswapped value for number1 is : %d\n", a);
